@@ -1,8 +1,3 @@
-Here is a redesigned, highly polished, and visually stunning `README.md` layout featuring a centered header, clean feature tables, stylized tech badges, and directory emojis.
-
-You can click the **Copy** button on the code block below, paste it directly into your `README.md` file in Antigravity, and save!
-
-```markdown
 <div align="center">
 
 # 🕒 FAST Timetable (FSM Timetable)
@@ -53,56 +48,3 @@ FSM TIMETABLE/
 ├── 📄 timetable.json         # Processed schedule data source
 ├── 📄 package.json           # Node.js dependencies and project scripts
 └── 📄 README.md              # Project documentation
-
-```
-
----
-
-## 🚀 Getting Started Locally
-
-To spin up this project on your local machine, follow these steps:
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/rayed2006/fsm-timetable.git](https://github.com/rayed2006/fsm-timetable.git)
-cd "FSM TIMETABLE"
-
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-
-```
-
-### 3. Run the Development Server
-
-```bash
-npm run dev
-
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the live application.
-
----
-
-## 👤 Author
-
-* **Rayed Rizwan** (FAST-NUCES Islamabad)
-* **GitHub:** [@rayed2006](https://github.com/rayed2006)
-* **Email:** [i250048@isb.nu.edu.pk](https://www.google.com/search?q=mailto%3Ai250048%40isb.nu.edu.pk)
-
----
-
-Once you save this into your `README.md` file, commit and push it with:
-
-```bash
-git add README.md
-git commit -m "docs: upgrade readme with stunning badges and table layout"
-git push origin main
-
-```
-
-Your GitHub repository page will look professionally structured and razor-sharp! Let me know how it looks.
