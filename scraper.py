@@ -180,7 +180,7 @@ class FSMTimetableScraper:
             return results
 
         # Strip all 4-digit course code tokens
-        text_without_courses = re.sub(r"\b[A-Za-z]{2,4}\s*\d{4}\b", " ", raw_section_str)
+        text_without_courses = re.sub(r"\b[A-Za-z]{2,4}\s*\d{4}(?=[^0-9]|$)", " ", raw_section_str)
 
         # Match only valid standard section codes with mandatory leading zero (01 through 08)
         pattern = re.compile(
@@ -290,7 +290,7 @@ class FSMTimetableScraper:
             }
 
         # Extract Course Code (e.g. SS1016, MG4011, AF3001, CL1001, LG2009, CS2016, CY4053, BA3002, AF3003, CS3017, CS1001)
-        course_code_match = re.search(r"\b([A-Za-z]{2,4}\s*\d{4})\b", clean_text)
+        course_code_match = re.search(r"\b([A-Za-z]{2,4}\s*\d{4})(?=[^0-9]|$)", clean_text)
         course_code = course_code_match.group(1).replace(" ", "") if course_code_match else None
 
         # Combine text for section extraction if section hint is provided
