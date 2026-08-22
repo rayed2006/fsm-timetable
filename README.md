@@ -48,3 +48,9 @@ FSM TIMETABLE/
 ├── 📄 timetable.json         # Processed schedule data source
 ├── 📄 package.json           # Node.js dependencies and project scripts
 └── 📄 README.md              # Project documentation
+
+Open https://fsm-timetable.vercel.app/ in your browser to view the live application.
+
+👤 Author
+Rayed Rizwan (FAST-NUCES Islamabad)
+Email: i250048@isb.nu.edu.pk
