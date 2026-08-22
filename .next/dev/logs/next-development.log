@@ -1,0 +1,44 @@
+{"timestamp":"00:00:02.409","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:02.411","source":"Server","level":"LOG","message":"✓ Generated AGENTS.md and CLAUDE.md for AI agents. Set `agentRules: false` in next.config to disable."}
+{"timestamp":"00:05:05.420","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:05:08.729","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:30:58.484","source":"Server","level":"LOG","message":"✓ Compiled in 107ms"}
+{"timestamp":"00:31:19.837","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"00:39:07.369","source":"Server","level":"LOG","message":"✓ Compiled in 72ms"}
+{"timestamp":"00:39:28.171","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:48:11.661","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
+{"timestamp":"00:51:19.207","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:51:20.451","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:51:21.663","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:51:22.904","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:51:27.503","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:57:27.646","source":"Server","level":"LOG","message":"✓ Compiled in 72ms"}
+{"timestamp":"01:11:12.643","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"01:18:39.191","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:49:46.504","source":"Server","level":"LOG","message":"✓ Compiled in 89ms"}
+{"timestamp":"01:50:08.748","source":"Server","level":"LOG","message":"✓ Compiled in 119ms"}
+{"timestamp":"02:06:19.841","source":"Server","level":"LOG","message":"✓ Compiled in 60ms"}
+{"timestamp":"02:06:30.684","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:13:23.631","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:13:28.155","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:13:28.986","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:13:29.549","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:13:29.921","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"02:17:00.556","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"02:48:36.458","source":"Server","level":"LOG","message":"✓ Compiled in 83ms"}
+{"timestamp":"06:03:23.865","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"06:24:19.902","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"06:25:28.539","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"06:57:56.271","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"07:14:31.197","source":"Server","level":"LOG","message":"✓ Compiled in 784ms"}
+{"timestamp":"07:16:09.912","source":"Server","level":"LOG","message":"✓ Compiled in 78ms"}
+{"timestamp":"07:18:23.626","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"07:20:11.382","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"07:24:49.996","source":"Server","level":"LOG","message":"✓ Compiled in 99ms"}
+{"timestamp":"07:29:18.577","source":"Server","level":"LOG","message":"✓ Compiled in 924ms"}
+{"timestamp":"07:31:22.986","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] Debug mode is enabled by default in development. No requests will be sent to the server."}
+{"timestamp":"07:31:22.987","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] [view] http://localhost:3000/ {\"o\":\"http://localhost:3000/\",\"r\":\"\",\"sdkn\":\"@vercel/analytics/react\",\"sdkv\":\"2.0.1\",\"sv\":\"0.1.3\",\"ts\":1787417630561} /_vercel/insights/view"}
+{"timestamp":"07:32:18.584","source":"Server","level":"LOG","message":"✓ Compiled in 97ms"}
+{"timestamp":"07:40:35.256","source":"Server","level":"LOG","message":"✓ Compiled in 140ms"}
+{"timestamp":"07:55:56.981","source":"Server","level":"LOG","message":"✓ Compiled in 107ms"}
+{"timestamp":"07:56:45.695","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
