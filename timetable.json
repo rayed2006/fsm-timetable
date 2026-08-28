@@ -14,14 +14,9 @@
       "2025",
       "2026"
     ],
-<<<<<<< HEAD
-    "total_classes": 527,
-    "generated_at": "2026-08-28T01:29:09.642185"
-=======
     "total_classes": 537,
-    "generated_at": "2026-08-28T14:39:45.227965",
-    "last_updated": "2026-08-28T14:39:45.227965"
->>>>>>> 94ff018 (fix(scraper): implement pre-processing normalization for edge cases)
+    "generated_at": "2026-08-28T15:23:16.059837",
+    "last_updated": "2026-08-28T15:23:16.059837"
   },
   "degrees": {
     "BBA": {
