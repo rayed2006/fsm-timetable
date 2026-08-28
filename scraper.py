@@ -90,7 +90,7 @@ KNOWN_COURSE_CODES = [
     "FL3001", "FT4005", "LG2009", "LG3003", "MG1001", "MG1002", "MG1011", "MG2001", "MG2003", "MG2009",
     "MG2010", "MG2011", "MG2012", "MG3002", "MG3003", "MG3004", "MG3006", "MG3012", "MG3014", "MG4003",
     "MG4011", "MG4045", "MG4051", "MG4062", "MG4067", "MG4521", "MT2004", "SL1016", "SS1007", "SS1013",
-    "SS1015", "SS1016", "SS1022", "SS2002", "SS2006", "SS2018", "SS2019", "SS2041", "SS2043"
+    "SS1015", "SS1016", "SS1018", "SS1021", "SS1022", "SS2002", "SS2006", "SS2018", "SS2019", "SS2041", "SS2043"
 ]
 
 # Fallback column slot intervals in case header row is unavailable
@@ -298,7 +298,7 @@ class FSMTimetableScraper:
         Pre-processes and normalizes raw cell text to fix known formatting anomalies before regex parsing:
         1. Fix 'U-Sirat Nabi': Section code before and after title without course code -> 'SS1000 U-Sirat Nabi <SEC>'
         2. Fix 'Islamic Banking': Prepend placeholder course code -> 'AF9999 Islamic Banking and Finance <SEC>'
-        3. Fix 'Holy Quran': Clean up hardcoded timing/room and ensure format -> 'SS1018 Holy Quran (11:30-12:25) BBA01A'
+        3. Fix 'Holy Quran': Normalize course code formatting and spacing without hardcoding sections
         """
         if not raw_text:
             return ""
@@ -318,11 +318,14 @@ class FSMTimetableScraper:
         if re.search(r"Islamic Banking", text, re.IGNORECASE) and not re.search(r"\b[A-Za-z]{2,4}\s*\d{4}\b", text):
             text = re.sub(r"(Islamic Banking(?:\s+and\s+Finance)?)", r"AF9999 \1", text, flags=re.IGNORECASE)
 
-        # 3. Fix 'Holy Quran': Clean up metadata and ensure course code + valid section
+        # 3. Fix 'Holy Quran': Normalize course code formatting and spacing without hardcoding sections
         if re.search(r"Holy\s*Quran", text, re.IGNORECASE):
-            t_match = re.search(r"\((\d{1,2}[:.]\d{2}\s*[-–to]\s*\d{1,2}[:.]\d{2})\)", text)
-            timing_part = f" ({t_match.group(1)})" if t_match else ""
-            text = f"SS1018 Holy Quran{timing_part} BBA01A"
+            text = re.sub(r"\bSS\s*(\d{4})\s*U-", r"SS\1 U-", text, flags=re.IGNORECASE)
+            text = re.sub(r"\bSS\s*1022\s*/\s*SS\s*1021\b", "SS1022", text, flags=re.IGNORECASE)
+            text = re.sub(r"\bSS\s*1021\s*/\s*SS\s*1022\b", "SS1022", text, flags=re.IGNORECASE)
+            text = re.sub(r"\bSS\s*(\d{4})", r"SS\1", text, flags=re.IGNORECASE)
+            if not re.search(r"\bSS\d{4}\b", text, re.IGNORECASE):
+                text = re.sub(r"\b(?:U-)?Holy\s*Quran", "SS1022 U-Holy Quran", text, flags=re.IGNORECASE)
 
         return text
 

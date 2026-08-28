@@ -14,9 +14,9 @@
       "2025",
       "2026"
     ],
-    "total_classes": 537,
-    "generated_at": "2026-08-28T13:13:51.336617",
-    "last_updated": "2026-08-28T13:13:51.336617"
+    "total_classes": 536,
+    "generated_at": "2026-08-28T18:16:02.576815",
+    "last_updated": "2026-08-28T18:16:02.576815"
   },
   "degrees": {
     "BBA": {
@@ -2445,7 +2445,7 @@
       "raw_text": "AF 3001 Financial Management BBA05C"
     },
     {
-      "id": "Mon-A-203-0225-BBA01A-SS1018",
+      "id": "Mon-A-203-0225-BSBA03A-SS1022",
       "day": "Monday",
       "category": "Classes",
       "room": "A-203",
@@ -2454,19 +2454,19 @@
       "end_time": "04:15",
       "start_minutes": 865,
       "end_minutes": 975,
-      "course_code": "SS1018",
-      "course_title": "Holy Quran",
+      "course_code": "SS1022",
+      "course_title": "U Holy Quran I&II",
       "is_lab": false,
-      "degree_code": "BBA",
-      "degree_name": "Bachelor of Business Administration",
-      "batch": "2026",
-      "semester": 1,
-      "section_code": "BBA01A",
+      "degree_code": "BSBA",
+      "degree_name": "BS (Business Analytics)",
+      "batch": "2025",
+      "semester": 3,
+      "section_code": "BSBA03A",
       "section_letter": "A",
       "subgroup": null,
       "is_elective": false,
       "is_merged_slot": true,
-      "raw_text": "SS1018 Holy Quran (02:25-04:15) BBA01A"
+      "raw_text": "SS1022 U-Holy Quran-I&II (02:25-04:15)"
     },
     {
       "id": "Mon-A-210-0225-FT01A-AF1003",
@@ -2565,7 +2565,7 @@
       "raw_text": "SS2043 Civics and Community Engagement (02:25 - 04:15)"
     },
     {
-      "id": "Mon-A-305-0225-BBA01A-SS1018",
+      "id": "Mon-A-305-0225-BSBA03B-SS1022",
       "day": "Monday",
       "category": "Classes",
       "room": "A-305",
@@ -2574,19 +2574,19 @@
       "end_time": "04:15",
       "start_minutes": 865,
       "end_minutes": 975,
-      "course_code": "SS1018",
-      "course_title": "Holy Quran",
+      "course_code": "SS1022",
+      "course_title": "U Holy Quran I&II",
       "is_lab": false,
-      "degree_code": "BBA",
-      "degree_name": "Bachelor of Business Administration",
-      "batch": "2026",
-      "semester": 1,
-      "section_code": "BBA01A",
-      "section_letter": "A",
+      "degree_code": "BSBA",
+      "degree_name": "BS (Business Analytics)",
+      "batch": "2025",
+      "semester": 3,
+      "section_code": "BSBA03B",
+      "section_letter": "B",
       "subgroup": null,
       "is_elective": false,
       "is_merged_slot": true,
-      "raw_text": "SS1018 Holy Quran (02:25 - 04:15) BBA01A"
+      "raw_text": "SS1022 U-Holy Quran-I&II (02:25 - 04:15)"
     },
     {
       "id": "Mon-A-310-0225-FT01D-SS1007",
@@ -5565,7 +5565,7 @@
       "raw_text": "AF1003 Intro to Financial Accounting BSBA01C"
     },
     {
-      "id": "Tue-A-316-0225-BBA01A-SS1018",
+      "id": "Tue-A-316-0225-BSBA03C-SS1022",
       "day": "Tuesday",
       "category": "Classes",
       "room": "A-316",
@@ -5574,19 +5574,19 @@
       "end_time": "04:15",
       "start_minutes": 865,
       "end_minutes": 975,
-      "course_code": "SS1018",
-      "course_title": "Holy Quran",
+      "course_code": "SS1022",
+      "course_title": "U Holy Quran I&II",
       "is_lab": false,
-      "degree_code": "BBA",
-      "degree_name": "Bachelor of Business Administration",
-      "batch": "2026",
-      "semester": 1,
-      "section_code": "BBA01A",
-      "section_letter": "A",
+      "degree_code": "BSBA",
+      "degree_name": "BS (Business Analytics)",
+      "batch": "2025",
+      "semester": 3,
+      "section_code": "BSBA03C",
+      "section_letter": "C",
       "subgroup": null,
       "is_elective": false,
       "is_merged_slot": true,
-      "raw_text": "SS1018 Holy Quran (02:25-04:15) BBA01A"
+      "raw_text": "SS1022 U-Holy Quran-I&II (02:25-04:15)"
     },
     {
       "id": "Tue-Cal-I_lab-0225-AF01A-SL1016-G1",
@@ -7197,7 +7197,7 @@
       "raw_text": "SS1015 Pakistan Studies (11:30-01:20)"
     },
     {
-      "id": "Wed-A-104-1130-BBA01A-SS1018",
+      "id": "Wed-A-104-1130-AF03A-SS1022",
       "day": "Wednesday",
       "category": "Classes",
       "room": "A-104",
@@ -7206,19 +7206,19 @@
       "end_time": "01:20",
       "start_minutes": 690,
       "end_minutes": 800,
-      "course_code": "SS1018",
-      "course_title": "Holy Quran",
+      "course_code": "SS1022",
+      "course_title": "U Holy Quran I&II",
       "is_lab": false,
-      "degree_code": "BBA",
-      "degree_name": "Bachelor of Business Administration",
-      "batch": "2026",
-      "semester": 1,
-      "section_code": "BBA01A",
+      "degree_code": "BSAF",
+      "degree_name": "BS (Accounting & Finance)",
+      "batch": "2025",
+      "semester": 3,
+      "section_code": "AF03A",
       "section_letter": "A",
       "subgroup": null,
       "is_elective": false,
       "is_merged_slot": true,
-      "raw_text": "SS1018 Holy Quran (11:30-01:20) BBA01A"
+      "raw_text": "SS1022 U-Holy Quran-I&II (11:30-01:20)"
     },
     {
       "id": "Wed-A-201-1130-BSBA07B-MG4011",
@@ -9213,7 +9213,7 @@
       "raw_text": "MG2012 Business Economics BSBA03A"
     },
     {
-      "id": "Thu-A-302-0830-BBA01A-SS1018",
+      "id": "Thu-A-302-0830-AF03B-SS1022",
       "day": "Thursday",
       "category": "Classes",
       "room": "A-302",
@@ -9222,19 +9222,19 @@
       "end_time": "10:20",
       "start_minutes": 510,
       "end_minutes": 620,
-      "course_code": "SS1018",
-      "course_title": "Holy Quran",
+      "course_code": "SS1022",
+      "course_title": "U Holy Quran I&II",
       "is_lab": false,
-      "degree_code": "BBA",
-      "degree_name": "Bachelor of Business Administration",
-      "batch": "2026",
-      "semester": 1,
-      "section_code": "BBA01A",
-      "section_letter": "A",
+      "degree_code": "BSAF",
+      "degree_name": "BS (Accounting & Finance)",
+      "batch": "2025",
+      "semester": 3,
+      "section_code": "AF03B",
+      "section_letter": "B",
       "subgroup": null,
       "is_elective": false,
       "is_merged_slot": true,
-      "raw_text": "SS1018 Holy Quran (08:30-10:20) BBA01A"
+      "raw_text": "SS1022 U-Holy Quran-I&II (08:30-10:20)"
     },
     {
       "id": "Thu-A-303-0830-FT05D-SS2006",
@@ -12715,30 +12715,6 @@
       "is_elective": false,
       "is_merged_slot": false,
       "raw_text": "MG3003 Basic Econometrics FT05C"
-    },
-    {
-      "id": "Fri-A-305-1130-BBA01A-SS1018",
-      "day": "Friday",
-      "category": "Classes",
-      "room": "A-305",
-      "time_slot": "11:30 - 12:25",
-      "start_time": "11:30",
-      "end_time": "12:25",
-      "start_minutes": 690,
-      "end_minutes": 745,
-      "course_code": "SS1018",
-      "course_title": "Holy Quran",
-      "is_lab": false,
-      "degree_code": "BBA",
-      "degree_name": "Bachelor of Business Administration",
-      "batch": "2026",
-      "semester": 1,
-      "section_code": "BBA01A",
-      "section_letter": "A",
-      "subgroup": null,
-      "is_elective": false,
-      "is_merged_slot": true,
-      "raw_text": "SS1018 Holy Quran (11:30-12:25) BBA01A"
     },
     {
       "id": "Fri-A-01-0225-BSBA07A-BA4007",

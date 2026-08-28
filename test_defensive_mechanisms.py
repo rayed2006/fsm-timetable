@@ -143,12 +143,13 @@ def test_normalize_cell_text():
     assert len(parsed2["parsed_sections"]) == 2
 
     # 3. Holy Quran normalization
-    norm3 = FSMTimetableScraper.normalize_cell_text("SS 1018U-Holy Quran (11:30-12:25) in Room C-310")
-    assert "SS1018" in norm3 and "Holy Quran" in norm3 and "BBA01A" in norm3
-    parsed3 = FSMTimetableScraper.parse_cell_content("SS 1018U-Holy Quran (11:30-12:25) in Room C-310")
+    norm3 = FSMTimetableScraper.normalize_cell_text("SS1022/SS1021 U-Holy Quran-I&II (11:30-01:20) AF03A")
+    assert "SS1022" in norm3 and "Holy Quran" in norm3 and "AF03A" in norm3
+    parsed3 = FSMTimetableScraper.parse_cell_content("SS1022/SS1021 U-Holy Quran-I&II (11:30-01:20) AF03A")
     assert parsed3 is not None
-    assert parsed3["course_code"] == "SS1018"
+    assert parsed3["course_code"] == "SS1022"
     assert parsed3["timing_override"] is not None
+    assert parsed3["parsed_sections"][0]["section_code"] == "AF03A"
 
     print("[PASS] Normalization: normalize_cell_text successfully fixed all edge cases.")
 
